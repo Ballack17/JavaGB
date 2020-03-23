@@ -1,7 +1,7 @@
 import java.util.concurrent.CountDownLatch;
 
 public class MainClass {
-    public static final int CARS_COUNT = 4;
+    public static final int CARS_COUNT = 5;
     public static final CountDownLatch cdlStart = new CountDownLatch(CARS_COUNT);
     public static final CountDownLatch cdlFlag = new CountDownLatch(1);
     public static final CountDownLatch cdlFinish = new CountDownLatch(CARS_COUNT);
